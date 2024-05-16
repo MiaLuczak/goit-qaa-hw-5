@@ -17,8 +17,51 @@
 
 // 2. Funkcja zwracająca tylko imiona z przekazanej tablicy, jako nowa tablica
 
-const nameDisplay = (arr) => arr.map(element => element.name);
+const nameDisplay = (arr) => arr.map((element) => element.name);
 
 // Testowanie funkcji:
-// Tworzenie tablicy testowej (Generowana za pomocą JSONGenerator i przekonwetwanej)
-
+// Tworzenie tablicy testowej
+const students = [
+  {
+    firstname: "Ross",
+    lastname: "Kunze",
+    academicYear: 5,
+    email: "Alize45@example",
+    fieldOfStudy: "Metrics",
+  },
+  {
+    firstname: "Kenya",
+    lastname: "Harber",
+    academicYear: 1,
+    email: "Isom.Price72@example",
+    fieldOfStudy: "Applications",
+  },
+  {
+    firstname: "Orlando",
+    lastname: "Steuber",
+    academicYear: 1,
+    email: "Mandy_Mante@example",
+    fieldOfStudy: "Research",
+  },
+  {
+    firstname: "Mustafa",
+    lastname: "Harber",
+    academicYear: 6,
+    email: "Macy.Bauch5@example",
+    fieldOfStudy: "Markets",
+  },
+  {
+    firstname: "Diana",
+    lastname: "DuBuque-Herman",
+    academicYear: 5,
+    email: "Wayne.Ryan@example",
+    fieldOfStudy: "Interactions",
+  },
+  {
+    firstname: "Vidal",
+    lastname: "Olson",
+    academicYear: 3,
+    email: "Davon46@example",
+    fieldOfStudy: "Web",
+  },
+];
