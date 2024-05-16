@@ -1,6 +1,16 @@
-// Tablica wyjściowa liczb
-const numbers = [1, 2, 3];
-
 // 1. Funkcja zwracająca nową tablicę, w której każda liczba jest podwojona
-// Implementacja przekazania określonej tablicy
 const doubledNumbers = (arr) => arr.map((element) => element * 2);
+
+// Testowanie funkcji:
+// Tworzenie tablicy testowej,
+const arrOfNumbers = [-18, -2.1446, 0, 0.91, (-6 + -3), (7 + 5), 16.1, 20];
+
+// Wyświetlenie w console oryginalnej tablicy:
+console.log('Oryginalna tablica:');
+console.log(arrOfNumbers);
+
+// Oddzielenie logów
+console.log('');
+// Przekazanie tablicy jako argument do funkcji oraz wyświetlenie wyniku w console:
+console.log('Podwojona tablica:');
+console.log(doubledNumbers(arrOfNumbers));
