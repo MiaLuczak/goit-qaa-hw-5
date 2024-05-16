@@ -17,7 +17,7 @@
 
 // 2. Funkcja zwracająca tylko imiona z przekazanej tablicy, jako nowa tablica
 
-const nameDisplay = (arr) => arr.map((element) => element.name);
+const nameDisplay = (arr) => arr.map((element) => element.firstname);
 
 // Testowanie funkcji:
 // Tworzenie tablicy testowej
@@ -65,3 +65,13 @@ const students = [
     fieldOfStudy: "Web",
   },
 ];
+
+// Wyświetlenie w console oryginalnej tablicy:
+console.log("Oryginalna tablica studentów:");
+console.log(students);
+
+// Oddzielenie logów
+console.log("");
+// Przekazanie tablicy jako argument do funkcji oraz wyświetlenie wyniku w console:
+console.log("Imiona studentów:");
+console.log(nameDisplay(students));
